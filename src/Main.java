@@ -47,7 +47,7 @@ public class Main {
 
         int [] mass2 = new int[] {1,2,3};
         for (int i = 0; i < mass2.length; i++) {
-            boolean worked = i % 2 == 0;
+            boolean worked = mass2[i] % 2 != 0;
             if (worked) {
                 mass2[i] += 1;
                 System.out.print(mass2[i] + ",");
@@ -55,6 +55,11 @@ public class Main {
                 System.out.print(mass2[i] + ",");
             }
         }
+
+
+
+
+
 
 
             }
