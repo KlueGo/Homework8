@@ -50,11 +50,10 @@ public class Main {
             boolean worked = mass2[i] % 2 != 0;
             if (worked) {
                 mass2[i] += 1;
-                System.out.print(mass2[i] + ",");
-            } else {
-                System.out.print(mass2[i] + ",");
             }
         }
+        System.out.print(Arrays.toString(mass2));
+
 
 
 
